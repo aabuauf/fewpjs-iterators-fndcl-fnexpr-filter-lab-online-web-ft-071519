@@ -1,6 +1,6 @@
 // Code your solution he
 function findMatching(drivers,string){
   return drivers.filter(d=> {
-    return d===string
+    return d.uppercase===string.uppercase
   })
 }
